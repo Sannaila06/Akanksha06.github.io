@@ -1,60 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Details</title>
-    <font size ="5">
+    <link rel="stylesheet" href="Tap.css">
+    <div class="Youtube">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <img src="Phone.png" height="35px">
         <a href="">08069878321</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <img src="Gmail .png" height="15px">
-        <a href="">hello@thetapacademy.com</a>
+        <a href="">hello@thetapacademy.com</a><br><br>
         <marquee behavior="" direction="left">
             <img src="Youtube.png" height="15px">
             <a href="https://www.youtube.com/@TAPACADEMY">Tap Academy Youtube Website</a>
         </marquee>
-    </font>
+    </div>
+    <style>
+        form {
+            
+            justify-content: space-around;
+            align-items: center;   
+            background-color: skyblue; 
+            margin-left: 250px;
+            margin-right: 250px;
+            margin-top: 50px;  
+            width: autos;      
+        }
+        fieldset {
+            padding-left: 10px;
+            padding-right: 0px;
+            align-items: center;
+            justify-content: space-between;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>
-        <img src="logo.png" height="70px" width="250px" >        
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        
-        <font size ="5">
-        <img src="home.png" height="20px">
-        <a href="Project 1.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <img src="course.png" height="20px">
-        <a href="course.html">Course</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <img src="Place.png" height="20px">
-        <a href="placement.html">Placemants</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <img src="Contact.png" height="20px">
-        <a href="contact.html">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <button>Free Demo</button>
-    </font>
-    </h1>
-    
-    <form action="Thank.html">
+
+    <div class="top-header">
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="logo.png" alt="Tap Academy Logo" class="logo-img">
+                </div>
+                <ul>
+                    <li><img src="home.png" alt="" height="20px">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li><img src="course.png" alt="" height="20px">
+                        <a href="#Course">Course</a>
+                    </li>
+                    <li><img src="place.png" alt="" height="20px">
+                        <a href="placement.html">Placements</a>
+                    </li>
+                    <li><img src="Contact.png" alt="" height="20px">
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                    <li><a href="" class="button">Free Demo</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <form action="thank-you .png">
         <fieldset>
             <legend>
                 Contact details
             </legend>
-        <label for="name">First Name</label>
-        <input type="text" id="name" name="fname" required placeholder="Name" pattern="[a-z A-Z]{3,20}"><br><br>
-        <label for="last">Last Name</label>
-        <input type="text" id="last" name="lname" required placeholder="Surname" pattern="[a-z A-Z]{3,15}"><br><br>
-        <label for="dob">Date Of Birth</label>
-        <input type="date" id="dob" name="dob" required><br><br>
-        <label for="num">Contact</label>
-        <input type="text" id="num" name="number" required placeholder="1234567890" pattern="[6-9]{1}[0-9]{9}"><br><br>
-        <label for="mail">Email</label>
-        <input type="email" id="mail" name="email" required placeholder="example@gmail.com" pattern="[^@]*@[^@]*"><br><br>
-        <input type="submit">
-        </fieldset>    
+            <label for="name">First Name</label>
+            <input type="text" id="name" name="fname" required placeholder="Name" pattern="[a-z A-Z]{3,20}"><br><br>
+            <label for="last">Last Name</label>
+            <input type="text" id="last" name="lname" required placeholder="Surname" pattern="[a-z A-Z]{3,15}"><br><br>
+            <label for="dob">Date Of Birth</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+            <label for="num">Contact</label>
+            <input type="text" id="num" name="number" required placeholder="1234567890"
+                pattern="[6-9]{1}[0-9]{9}"><br><br>
+            <label for="mail">Email</label>
+            <input type="email" id="mail" name="email" required placeholder="example@gmail.com"
+                pattern="[^@]*@[^@]*"><br><br>
+            <input type="submit">
+        </fieldset>
     </form>
+    <footer>
+        <div class="footer-box">
+            <div class="footer-about">
+                <h2>Tap Academy</h2>
+                <p>An Online Skilling Organization</p>
+                <h3>Locations</h3>
+                <ul>
+                    <li>
+                        <img src="location.png" alt="" height="20px">
+                        <a href="#">BTM</a>
+                    </li>
+                    <li>
+                        <img src="location.png" alt="" height="20px">
+                        <a href="#">Rajajinagar</a>
+                    </li>
+                    <li>
+                        <img src="phone g .png" alt="" height="20px">
+                        <a href="#">08069878321</a>
+                    </li>
+                    <li>
+                        <img src="mail.png" alt="" height="20px">
+                        <a href="#">hello@tapacademy.com</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>Useful Links</h3>
+                <a href="index.html">Home</a>
+                <a href="course.html">Course</a>
+                <a href="placement.html">Placements</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-links">
+                <h3>Policies</h3>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Refunds / Cancellations</a>
+            </div>
+        </div>
+        <p class="end">Copyrigt &copy; 2021 Tap Academy</p>
+    </footer>
 </body>
+
 </html>
